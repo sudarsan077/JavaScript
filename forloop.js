@@ -1,0 +1,7 @@
+for (count=10;count>=1;count=count-1)
+    console.log(count)
+console.log()
+console.log("Two tables")
+    for (count=1;count<=20;count=count+1)
+    console.log(count,"x2=",count*2)
+console.log()
