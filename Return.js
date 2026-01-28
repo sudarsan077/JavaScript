@@ -5,9 +5,10 @@ function myname()
 var a=myname()
 console.log(a)
 
-function add(a,b)
+function area_of_rect(l,b)
 {
-    return a*b
+    return l*b
+    console.log("Hello") //this line will not be executed as return statement is before this line.
 }
-var b=add(5,7)
+var b = area_of_rect(5,7)
 console.log(b)
